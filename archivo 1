@@ -8,4 +8,4 @@ def pagos():
         o=(a/c) * (d/100)
         print (o)
         a=a-o
-pagos()
+pagos() #es una tentativa, todavia no funciona
