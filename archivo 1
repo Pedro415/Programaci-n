@@ -1,0 +1,11 @@
+
+def pagos():
+    a=float(input("Tama�o del prestamo"))
+    b=float(input("interes efectivo anual"))
+    c=int(input("tiempo del prestamo en meses"))
+    for i in range(c):
+        d=b/12
+        o=(a/c) * (d/100)
+        print (o)
+        a=a-o
+pagos()
